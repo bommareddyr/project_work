@@ -1,0 +1,72 @@
+.createNew{
+    background-image: url('../Images/project_final (3).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-createnew {
+    display: flex;
+    align-items: center;
+    padding: 75px 0px;
+}
+
+.form-container {
+    background-color: rgba(249, 249, 249, 0.5);
+    backdrop-filter: blur(50px);
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    width: 400px;
+    height: auto;
+    align-items: center;
+}
+
+.item {
+    color: white;
+}
+.form-container input {
+    border-radius: 10px;
+}
+
+.form-container input:focus {
+    box-shadow: 0 0 0;
+    border: 2px solid green;
+}
+
+.form-container select {
+    border-radius: 10px;
+}
+
+.form-container select:focus {
+    box-shadow: 0 0 0;
+    border: 2px solid green;
+}
+
+.form-container textarea {
+    border-radius: 10px;
+}
+
+.form-container textarea:focus {
+    box-shadow: 0 0 0;
+    border: 2px solid green;
+}
+
+
+.create-button {
+    border:none;
+    border-radius: 10px;
+}
+
+.text {
+    margin-left: 20px;
+    color: grey;
+}
+
+.text h1 {
+    font-size: 60px;
+    color:grey
+}
+
+.quotes-telugu {
+    margin-left: 10px;
+    color:grey;
+}

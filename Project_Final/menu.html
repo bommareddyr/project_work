@@ -1,50 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="CSS/style.css" alt = "style">
+  <link rel="stylesheet" href="CSS/style.css" alt="style">
+  <link rel="stylesheet" href="CSS/menu_style.css" alt="style">
+  <script src="menu_script.js"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">Joy Of Telugu Cuisine</a>
-          <div class="navbar-collapse collapse">
-            <ul class="navbar-nav align-items-center mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="menu.html">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="cart.html">Cart</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="signup.html">SignUp</a>
-              </li>
-            </ul>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Joy Of Telugu Cuisine</a>
+      <div class="navbar-collapse collapse">
+        <ul class="navbar-nav align-items-center mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">SignUp</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="createNew.html">Add Item</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div id="hero-Carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="Images/hero1.jpg" class="d-block w-100 c-img" alt="Image 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Breakfast</h2>
+            <p>Start your day with a hearty Andhra Pradesh breakfast.
+              Indulge in the popular "Pesarattu," a green gram lentil crepe served with tangy ginger chutney, or savor
+              the savory "Upma" accompanied by coconut chutney.
+              For a more indulgent option, try the crispy "Garelu" fritters paired with a spicy tomato chutney. These
+              breakfast delights will energize you for the day ahead.</p>
           </div>
         </div>
-      </nav>
-
-  <div class="container">
-    <h1>Menu</h1>
-    <p>Discover delicious recipes and explore our menu!</p>
+        <div class="carousel-item c-item">
+          <img src="Images/hero2.jpg" class="d-block w-100 c-img" alt="Image 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Lunch</h2>
+            <p>For lunch, immerse yourself in the traditional dishes of both regions. Sample the tangy tamarind rice,
+              "Pulihora," paired with the flavorful "Gutti Vankaya Kura," an eggplant curry cooked with a unique blend
+              of spices. Indulge in the spicy "Royyala Iguru" prawn curry or the fiery "Gongura Mamsam" mutton curry
+              with the distinctive tang of sorrel leaves. Complete your meal with comforting "Pappu," aromatic "Sambar,"
+              and refreshing "Perugu" (curd) served with steamed rice.</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="Images/hero3.jpg" class="d-block w-100 c-img" alt="Image 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Dinner</h2>
+            <p>As the sun sets, indulge in a Telangana dinner that showcases the region's rich culinary heritage.
+              Delight your taste buds with the fragrant "Hyderabadi Biryani," a flavorful rice dish infused with
+              aromatic spices. Savor the tender "Bagara Baingan," baby eggplants simmered in a nutty sesame and peanut
+              sauce. For non-vegetarian options, relish the spicy "Kodi Kura" chicken curry or the tangy "Chepala
+              Pulusu" fish stew. Accompanied by "Pulao" or "Roti," this dinner experience will leave you satisfied and
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#hero-Carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#hero-Carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
+
+  <div class="center-nav">
+    <nav class=navigation>
+      <a href="#breakfast">Breakfast</a>
+      <a href="#lunch">Lunch</a>
+      <a href="#dinner">Dinner</a>
+      <div class="animation start-breakfast"></div>
+      <!-- <div class="menu-grid">
+        <div class="grid-container" id="gridContainer">
+          <div class="grid-item">
+            <h2>Header 1</h2>
+            <img src="image1.jpg" alt="Image 1">
+            <p>Text 1</p>
+          </div>
+          <div class="grid-item">
+            <h2>Header 2</h2>
+            <img src="image2.jpg" alt="Image 2">
+            <p>Text 2</p>
+          </div>
+          <div class="grid-item">
+            <h2>Header 3</h2>
+            <img src="image3.jpg" alt="Image 3">
+            <p>Text 3</p>
+          </div>
+        </div>
+      </div> -->
+
+
+      <!-- <div class="collapse" id="breakfast">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="sub-item">
+              <img src="Images/menu_hero_image1.png" alt="Breakfast Item 1">
+              <p>Description 1</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sub-item">
+              <img src="Images/menu_hero_image2.png" alt="Breakfast Item 2">
+              <p>Description 2</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sub-item">
+              <img src="Images/image.jpg" alt="Breakfast Item 3">
+              <p>Description 3</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div class="collapse" id="lunch">
+        
+      </div>
+    
+      <div class="collapse" id="dinner">
+       
+      </div> -->
+    </nav>
+  </div>
+  <div class="container menu-all">
+    <h2>Breakfast</h2>
+    <div class="row g-3">
+        <div class="col-md-4 col-6">
+            <div class="card">
+                <img src="Images/idly.png" class="card-img-top img-fit" alt="Idly">
+                <div class="card-body">
+                    <h5 class="card-title">Idly</h5>
+                    <p class="card-text">Introducing our mouthwatering idlis - fluffy, steamed rice cakes bursting with flavor. Our idlis are a delightful blend of traditional craftsmanship and modern taste. Prepared with precision and love, each idli is a perfect balance of softness and tanginess. Served hot and accompanied by an array of chutneys and sambar.</p>
+                    <div class="text-end">
+                        <a href="#" class="btn btn-outline-primary">View</a>
+                        <a href="#" class="btn btn-outline-primary">Update</a>
+                        <a href="#" class="btn btn-outline-primary">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="card">
+                <img src="Images/dosa.jpg" class="card-img-top img-fit" alt="Dosa">
+                <div class="card-body">
+                    <h5 class="card-title">Dosa</h5>
+                    <p class="card-text">Discover the tantalizing world of dosas - thin, crispy pancakes with a twist. Our dosas are a harmonious fusion of tradition and innovation, crafted to perfection. Made from fermented rice and lentil batter, each dosa is a crispy delight that will leave you craving for more. Served hot and accompanied by an array of chutneys and sambar, our dosas are a culinary delight that will transport your taste buds to new heights.</p>
+                    <div class="text-end">
+                        <a href="#" class="btn btn-outline-primary">View</a>
+                        <a href="#" class="btn btn-outline-primary">Update</a>
+                        <a href="#" class="btn btn-outline-primary">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="card h-100">
+                <img src="Images/tea.jpg" class="card-img-top img-fit" alt="Tea/Coffee">
+                <!-- d-flex flex-column h-100 -->
+                <div class="card-body">
+                    <h5 class="card-title">Tea/Coffee</h5>
+                    <p class="card-text">
+                      Welcome to a world of aromatic bliss - our exquisite tea collection. Sip and savor the perfect cup of tea, crafted with passion and expertise. Each sip unveils a symphony of flavors, from delicate floral notes to robust earthy undertones. Our teas are sourced from the finest tea gardens around the world, ensuring unparalleled quality and freshness. Indulge in the soothing ritual of tea drinking.</p>
+                    <div class="text-end">
+                        <a href="#" class="btn btn-outline-primary">View</a>
+                        <a href="#" class="btn btn-outline-primary">Update</a>
+                        <a href="#" class="btn btn-outline-primary">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>Lunch</h2>
+    <div class="row g-3">
+        <div class="col-md-4 col-6">
+            <div class="card">
+                <img src="Images/andhra_meals.png" class="card-img-top img-fit" alt="Vegetarian Meals">
+                <div class="card-body">
+                    <h5 class="card-title">Vegetarian Meals</h5>
+                    <p class="card-text"> Our menu celebrates the abundance of plant-based ingredients, offering a delectable array of dishes that cater to all tastes. From vibrant salads bursting with freshness to hearty grain bowls packed with wholesome goodness, each meal is a delightful harmony of colors, textures, and flavors. Our chefs meticulously curate every dish, utilizing a variety of vegetables, legumes, grains, and spices to create culinary masterpieces that will satisfy even the most discerning palates.</p>
+                    <div class="text-end">
+                        <a href="#" class="btn btn-outline-primary">View</a>
+                        <a href="#" class="btn btn-outline-primary">Update</a>
+                        <a href="#" class="btn btn-outline-primary">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="card">
+                <img src="Images/non-veg-meals.jpg" class="card-img-top img-fit" alt="Non-Vegetarian Meals">
+                <div class="card-body">
+                    <h5 class="card-title">Non-Vegetarian Meals</h5>
+                    <p class="card-text">Our menu showcases a diverse selection of dishes that will satisfy even the most discerning carnivores. From succulent grilled meats to aromatic curries and seafood specialties, each meal is a culinary masterpiece crafted with the finest ingredients and expert techniques. Our chefs take pride in sourcing the highest quality proteins, ensuring every bite is a burst of flavor and tenderness. Whether you crave the bold spices of a sizzling steak, the aromatic nuances of a perfectly seasoned roast chicken, or the delicate flavors of a seafood medley, our non-vegetarian meals will take your taste buds on an unforgettable journey.</p>
+                    <div class="text-end">
+                        <a href="#" class="btn btn-outline-primary">View</a>
+                        <a href="#" class="btn btn-outline-primary">Update</a>
+                        <a href="#" class="btn btn-outline-primary">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="card h-100">
+                <img src="Images/paan.jpg" class="card-img-top img-fit" alt="paan">
+                <!-- d-flex flex-column h-100 -->
+                <div class="card-body">
+                    <h5 class="card-title">Paan</h5>
+                    <p class="card-text">Embark on a sizzling adventure with our tantalizing pan dishes. Prepared with precision and passion, our pan specialties are a delightful fusion of flavors and textures.</p>
+                    <div class="text-end">
+                        <a href="#" class="btn btn-outline-primary">View</a>
+                        <a href="#" class="btn btn-outline-primary">Update</a>
+                        <a href="#" class="btn btn-outline-primary">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>Dinner</h2>
+    <div class="row g-3">
+        <div class="col-md-4 col-6">
+            <div class="card">
+                <img src="Images/roti.jpg" class="card-img-top img-fit" alt="Curry">
+                <div class="card-body">
+                    <h5 class="card-title">Roti/Phulka With Curry</h5>
+                    <p class="card-text">Our roti/phulka is a testament to traditional craftsmanship, prepared with care and expertise. Each roti/phulka is lovingly hand-rolled and cooked on an open flame, resulting in a light and fluffy texture that complements our flavorful curries perfectly. Our curries are a tantalizing blend of aromatic spices, fresh vegetables, and tender meats (optional), simmered to perfection. From creamy lentil curries to spicy vegetable masalas, each curry is a symphony of flavors that will transport you to culinary bliss. The combination of warm roti/phulka and rich, flavorful curry is a match made in heaven, creating a wholesome and satisfying meal.</p>
+                    <div class="text-end">
+                        <a href="#" class="btn btn-outline-primary">View</a>
+                        <a href="#" class="btn btn-outline-primary">Update</a>
+                        <a href="#" class="btn btn-outline-primary">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="card">
+                <img src="Images/veg-Biryani-.jpg" class="card-img-top img-fit" alt="veg biryani">
+                <div class="card-body">
+                    <h5 class="card-title">Vegetarian Biryani</h5>
+                    <p class="card-text">Savor the exquisite flavors of our vegetarian biryani, a culinary masterpiece that will transport you to the heart of aromatic indulgence. Our vegetarian biryani is a symphony of fragrant basmati rice, perfectly cooked and layered with an assortment of fresh vegetables, aromatic spices, and herbs. Each spoonful is a burst of flavors, as the spices infuse into the tender rice and vegetables, creating a harmonious blend of textures and tastes. Whether you prefer a mild and aromatic biryani or a spicy and robust one, our vegetarian biryani is tailored to satisfy every palate. Accompanied by raita and garnished with crispy fried onions and fresh herbs, our biryani is a feast for both the eyes and the taste buds.</p>
+                    <div class="text-end">
+                        <a href="#" class="btn btn-outline-primary">View</a>
+                        <a href="#" class="btn btn-outline-primary">Update</a>
+                        <a href="#" class="btn btn-outline-primary">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="card h-100">
+                <img src="Images/chicken-biryani.jpg" class="card-img-top img-fit" alt="chicken-biryani">
+                <!-- d-flex flex-column h-100 -->
+                <div class="card-body">
+                    <h5 class="card-title">Non-Vegetarian Biryani</h5>
+                    <p class="card-text">Indulge in the irresistible flavors of our non-vegetarian biryani, a culinary symphony that will tantalize your taste buds. Our non-vegetarian biryani is a masterpiece crafted with fragrant basmati rice, tender meats (such as chicken, lamb, or fish), and a medley of aromatic spices and herbs. Each layer of rice is infused with the flavors of succulent meat, creating a harmony of textures and tastes that will leave you craving for more. Whether you prefer a subtly spiced biryani or a fiery and robust one, our non-vegetarian biryani is expertly prepared to cater to all spice preferences. Accompanied by raita and garnished with fried onions and fresh herbs, our biryani is a culinary delight that captures the essence of traditional Indian cuisine.</p>
+                    <div class="text-end">
+                        <a href="#" class="btn btn-outline-primary">View</a>
+                        <a href="#" class="btn btn-outline-primary">Update</a>
+                        <a href="#" class="btn btn-outline-primary">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- Add buttons for Breakfast, Lunch, and Dinner -->
+  <!-- <div class="menu-buttons">
+    <button class="btn btn-primary" id="breakfast-btn">Breakfast</button>
+    <button class="btn btn-primary" id="lunch-btn">Lunch</button>
+    <button class="btn btn-primary" id="dinner-btn">Dinner</button>
+  </div>
+  </div> -->
+
+  <!-- Container for menu items -->
+  <!-- <div id="menu-items-container" class="menu-items"></div>
+  </div> -->
+
+
 
   <footer>
     <p>&copy; 2023 Joy Of Telugu Cuisine. All rights reserved.</p>
@@ -52,5 +326,11 @@
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+
+
+
+
+
 </body>
+
 </html>
