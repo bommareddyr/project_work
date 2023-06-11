@@ -1,5 +1,5 @@
 body {
-    padding-top: 60px; /* Add space for the fixed navbar */
+    /* padding-top: 60px; */
     padding-bottom: 70px; /* Add space for the fixed footer */
     min-height: 100vh; /* Set the minimum height of the body to the viewport height */
     position: relative; /* Set the body position to relative */
@@ -56,5 +56,4 @@ body {
     right: 10px;
     margin: 0;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
   }
