@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/jot-foods/static/css/main.cde8be8d.css",
+    "main.js": "/jot-foods/static/js/main.9b6c47ee.js",
+    "static/js/787.81588d33.chunk.js": "/jot-foods/static/js/787.81588d33.chunk.js",
+    "static/media/hero3.jpg": "/jot-foods/static/media/hero3.554bfed6e9f553fe6f6a.jpg",
+    "static/media/hero2.jpg": "/jot-foods/static/media/hero2.644637ebcfc10a81a67f.jpg",
+    "static/media/andhra_meals.png": "/jot-foods/static/media/andhra_meals.114ada03858b2060ccf0.png",
+    "static/media/rushendra.JPEG": "/jot-foods/static/media/rushendra.539127caea9529079134.JPEG",
+    "static/media/map_telangana.png": "/jot-foods/static/media/map_telangana.92465d8f5ed6f49b8a81.png",
+    "static/media/map_andhra1.png": "/jot-foods/static/media/map_andhra1.f1cfa44863288936ac15.png",
+    "static/media/idly.png": "/jot-foods/static/media/idly.dc77d7acc41cc036e8c9.png",
+    "static/media/tejesh.jpg": "/jot-foods/static/media/tejesh.443cd055716997114fc6.jpg",
+    "static/media/pexels-evie-shaffer-3825880.jpg": "/jot-foods/static/media/pexels-evie-shaffer-3825880.3e56d2a1c8b5be7d4e44.jpg",
+    "static/media/non-veg-meals.jpg": "/jot-foods/static/media/non-veg-meals.b498b3a85f0f96fec938.jpg",
+    "static/media/blurred-image.jpg": "/jot-foods/static/media/blurred-image.d2e85cbb546d33f24a2e.jpg",
+    "static/media/hero1.jpeg": "/jot-foods/static/media/hero1.608870aac7a25e8703d9.jpeg",
+    "static/media/paan.jpg": "/jot-foods/static/media/paan.f2e77ef244f6a54f97b6.jpg",
+    "static/media/dosa.jpg": "/jot-foods/static/media/dosa.b845d3337e38b9870fd9.jpg",
+    "static/media/veg-Biryani-.jpg": "/jot-foods/static/media/veg-Biryani-.2057c0aba02eaa04051b.jpg",
+    "static/media/tea.jpg": "/jot-foods/static/media/tea.eac65314666d13ca2e8d.jpg",
+    "static/media/chicken-biryani.jpg": "/jot-foods/static/media/chicken-biryani.6edc1b2f0a3fc2840aec.jpg",
+    "static/media/roti.jpg": "/jot-foods/static/media/roti.ecd60b54a5698b9d7f00.jpg",
+    "index.html": "/jot-foods/index.html",
+    "main.cde8be8d.css.map": "/jot-foods/static/css/main.cde8be8d.css.map",
+    "main.9b6c47ee.js.map": "/jot-foods/static/js/main.9b6c47ee.js.map",
+    "787.81588d33.chunk.js.map": "/jot-foods/static/js/787.81588d33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cde8be8d.css",
+    "static/js/main.9b6c47ee.js"
+  ]
+}
